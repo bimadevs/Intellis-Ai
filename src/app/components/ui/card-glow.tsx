@@ -8,7 +8,7 @@ import {
 
 export default function CardGlow() {
     return (
-        <div className="flex py-20 items-center justify-center antialiased">
+        <div className="flex py-20 items-center justify-center antialiased w-[100%] mt-0">
             <GlowingStarsBackgroundCard>
                 <GlowingStarsTitle>Coming Soon</GlowingStarsTitle>
                 <div className="flex justify-between items-end">
