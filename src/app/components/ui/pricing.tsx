@@ -9,7 +9,7 @@ export default function Pricing() {
           <p className=" mb-4">This package includes:</p>
           <ul className="list-disc list-inside  mb-4">
             <li>1,000 Predictions / month</li>
-            <li>500Mb Storage</li>
+            <li>Share with API</li>
             <li>1 Week Log Retention</li>
           </ul>
           <p className="font-bold text-xl mb-4">Free <span className="text-sm text-gray-300">for a month</span></p>
@@ -22,6 +22,7 @@ export default function Pricing() {
         <ul className="list-disc list-inside  mb-4">
           <li>10,000 Predictions / month</li>
           <li>1GB Storage</li>
+          <li>Costumise LLMs</li>
           <li>Database Backup</li>
           <li>1 Week Log Retention</li>
           <li>Custom Chatbot Branding</li>

@@ -22,29 +22,29 @@ function NavbarMenu({ className }: { className?: string }) {
         <a href="/">Home</a>
         <MenuItem setActive={setActive} active={active} item="About">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="#about">Introduction</HoveredLink>
-            <HoveredLink href="#about">Why Intellis Ai</HoveredLink>
-            <HoveredLink href="#about">Platform Agnostic</HoveredLink>
-            <HoveredLink href="#about">Workflow Automation</HoveredLink>
+            <HoveredLink href="/#about">Introduction</HoveredLink>
+            <HoveredLink href="/#about">Why Intellis Ai</HoveredLink>
+            <HoveredLink href="/#about">Platform Agnostic</HoveredLink>
+            <HoveredLink href="/#about">Workflow Automation</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Products">
           <div className="  text-sm grid  lg:grid-cols-2 gap-4 md:gap-10 p-2 md:p-4 ">
             <ProductItem
               title="ChatBot"
-              href="#Products"
+              href="/#Products"
               src="/images/ano.webp"
               description="An Ai Chatbot for get information"
             />
             <ProductItem
               title="Generate Image"
-              href="#Products"
+              href="/#Products"
               src="/images/intellis image.webp"
               description="Generate Image"
             />
             <ProductItem
               title="Search Engine"
-              href="#Products"
+              href="/#Products"
               src="/images/coming-soon.svg"
               description="Coming Soon, we will add more features"
             />
@@ -53,13 +53,13 @@ function NavbarMenu({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Pricing">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="#Pricing">Try Free</HoveredLink>
-            <HoveredLink href="#Pricing">Individual</HoveredLink>
-            <HoveredLink href="#Pricing">Team</HoveredLink>
-            <HoveredLink href="#Pricing">Enterprise</HoveredLink>
+            <HoveredLink href="/#Pricing">Try Free</HoveredLink>
+            <HoveredLink href="/#Pricing">Individual</HoveredLink>
+            <HoveredLink href="/#Pricing">Team</HoveredLink>
+            <HoveredLink href="/#Pricing">Enterprise</HoveredLink>
           </div>
         </MenuItem>
-        <a href="/free">Try For Free</a>
+        <a href="/free" className="text-center">Try For Free</a>
       </Menu>
     </div>
   );

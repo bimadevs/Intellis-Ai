@@ -12,12 +12,11 @@ export default function Footer() {
         <div className="mb-6 md:mb-0">
           <h3 className="text-lg font-semibold">Quick links</h3>
           <ul className="mt-2 space-y-1">
-            <li><a href="#" className="text-gray-300 hover:text-white transition ease-in-out">Home</a></li>
-            <li><a href="#about" className="text-gray-300 hover:text-white transition ease-in-out">about</a></li>
-            <li><a href="#Products" className="text-gray-300 hover:text-white transition ease-in-out">Products</a></li>
-            <li><a href="#Pricing" className="text-gray-300 hover:text-white transition ease-in-out">Pricing</a></li>
-            <li><a href="#" className="text-gray-300 hover:text-white transition ease-in-out">Complete intake</a></li>
-            <li><a href="#" className="text-gray-300 hover:text-white transition ease-in-out">Privacy Policy</a></li>
+            <li><a href="/" className="text-gray-300 hover:text-white transition ease-in-out">Home</a></li>
+            <li><a href="/#about" className="text-gray-300 hover:text-white transition ease-in-out">about</a></li>
+            <li><a href="/#Products" className="text-gray-300 hover:text-white transition ease-in-out">Products</a></li>
+            <li><a href="/#Pricing" className="text-gray-300 hover:text-white transition ease-in-out">Pricing</a></li>
+            <li><a href="/free" className="text-gray-300 hover:text-white transition ease-in-out">Try for Free</a></li>
           </ul>
         </div>
         <div>
