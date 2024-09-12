@@ -24,7 +24,6 @@ export default function Pricing() {
           <li>1GB Storage</li>
           <li>Customize LLMs</li>
           <li>Database Backup</li>
-          <li>1 Week Log Retention</li>
           <li>Custom Chatbot Branding</li>
         </ul>
         <p className="font-bold text-xl mb-4">Rp.59.000,00<span className="text-sm text-gray-300">/month</span></p>
