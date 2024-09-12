@@ -33,19 +33,19 @@ function NavbarMenu({ className }: { className?: string }) {
             <ProductItem
               title="ChatBot"
               href="/#Products"
-              src="/images/ano.webp"
+              src="https://ucarecdn.com/5a14e39a-1c0d-4b8e-a7ce-44590e903112/ano.webp"
               description="An Ai Chatbot for get information"
             />
             <ProductItem
               title="Generate Image"
               href="/#Products"
-              src="/images/intellis image.webp"
+              src="https://ucarecdn.com/4d3ad90a-7583-4b1f-8b71-d37806cba824/intellisimage.webp"
               description="Generate Image"
             />
             <ProductItem
               title="Search Engine"
               href="/#Products"
-              src="/images/coming-soon.svg"
+              src="https://ucarecdn.com/94067630-7896-445a-bfca-1bb710a29585/comingsoon.svg"
               description="Coming Soon, we will add more features"
             />
             

@@ -12,7 +12,7 @@ export default function Tab() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 lg:p-10 text-lg md:text-4xl font-bold text-white bg-slate-900">
           <p>Chatbot</p>
           <Image
-            src="/images/ano.webp"
+            src="https://ucarecdn.com/5a14e39a-1c0d-4b8e-a7ce-44590e903112/ano.webp"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -28,7 +28,7 @@ export default function Tab() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 lg:p-10 text-lg md:text-4xl font-bold text-white bg-neutral-900">
           <p>Generate Image</p>
           <Image
-            src="/images/intellis image.webp"
+            src="https://ucarecdn.com/4d3ad90a-7583-4b1f-8b71-d37806cba824/intellisimage.webp"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -44,7 +44,7 @@ export default function Tab() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 lg:p-10 text-lg md:text-4xl font-bold text-white bg-emerald-900">
           <p>Search Engine</p>
           <Image
-            src="/images/coming-soon.svg"
+            src="https://ucarecdn.com/94067630-7896-445a-bfca-1bb710a29585/comingsoon.svg"
             alt="dummy image"
             width="1000"
             height="1000"

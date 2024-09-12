@@ -21,7 +21,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/images/intellis.svg"
+          src="https://ucarecdn.com/24b9dd32-b10c-4f42-bb24-6e77b6f218fe/intellis.svg"
           width={300}
           height={300}
           className="h-full w-full object-cover"

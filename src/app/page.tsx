@@ -11,7 +11,7 @@ import { AboutCard } from "./components/ui/about-card";
 
 export default function Home() {
   return (
-    <main className="bg-black overflow-x-hidden">
+    <div className="bg-black overflow-x-hidden">
       <Hero />
       <AboutCard />
       <About />
@@ -19,6 +19,6 @@ export default function Home() {
       <Feature />
       <Pricing />
       <Contact />
-    </main>
+    </div>
   );
 }

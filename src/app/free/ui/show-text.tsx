@@ -20,7 +20,7 @@ export function ShowText() {
         We make {" "}
         <LinkPreview
           url="https://app.vectorshift.ai/chatbots/deployed/66dee915292e6e0ef6a2b07b"
-          imageSrc="/images/ano.webp"
+          imageSrc="https://ucarecdn.com/5a14e39a-1c0d-4b8e-a7ce-44590e903112/ano.webp"
           isStatic
           className="font-bold"
         >
@@ -29,7 +29,7 @@ export function ShowText() {
         and we make{" "}
         <LinkPreview
           url="https://app.vectorshift.ai/forms/deployed/66d6fa869d99492d174837eb"
-          imageSrc="/images/intellis image.webp"
+          imageSrc="https://ucarecdn.com/4d3ad90a-7583-4b1f-8b71-d37806cba824/intellisimage.webp"
           isStatic
           className="font-bold"
         >
