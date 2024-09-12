@@ -10,8 +10,8 @@ export default function Free() {
         <div>
             <Hero />
             <ShowText />
-            <Code />
             <Card />
+            <Code />
             <InputLoader />
             <TextHover />
             

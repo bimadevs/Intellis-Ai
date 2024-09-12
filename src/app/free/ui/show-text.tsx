@@ -26,7 +26,7 @@ export function ShowText() {
         >
           Ano ChatBot
         </LinkPreview>{" "}
-        and w make{" "}
+        and we make{" "}
         <LinkPreview
           url="https://app.vectorshift.ai/forms/deployed/66d6fa869d99492d174837eb"
           imageSrc="/images/intellis image.webp"
