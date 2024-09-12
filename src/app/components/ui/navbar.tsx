@@ -19,7 +19,7 @@ function NavbarMenu({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 text-white text-xs md:text-lg ", className)}
     >
       <Menu setActive={setActive}>
-        <a href="/">Home</a>
+        <a className="underlineText" href="/">Home</a>
         <MenuItem setActive={setActive} active={active} item="About">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/#about">Introduction</HoveredLink>
@@ -59,7 +59,7 @@ function NavbarMenu({ className }: { className?: string }) {
             <HoveredLink href="/#Pricing">Enterprise</HoveredLink>
           </div>
         </MenuItem>
-        <a href="/free" className="text-center">Try For Free</a>
+        <a className="underlineText" href="/free">Try For Free</a>
       </Menu>
     </div>
   );
