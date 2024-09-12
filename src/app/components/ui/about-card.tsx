@@ -6,7 +6,7 @@ import { WobbleCard } from "../acertenity/wobble-card";
 export function AboutCard() {
     return (
         <div id="about" className="flex flex-col justify-center items-center">
-            <h1 className="my-6 lg:text-3xl">About</h1>
+            <h1 className="border-y-2 my-6 text-xl lg:text-3xl bg-clip-text text-transparent bg-gradient-to-t from-gray-500 via-white to-black">ABOUT</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
                 <WobbleCard
                     containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"

@@ -39,10 +39,10 @@ export function InputLoader() {
 
             {/* Tombol untuk memulai loader dan menyalin teks yang berbeda */}
             <div className="lg:w-1/2 text-center">
-                <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+                <span className="bg-clip-text text-transparent bg-gradient-to-t from-gray-500 via-white to-black inline-block">
                     <h1>CLICK THIS BUTTON TO COPY YOUR AI</h1>
                 </span>
-                <p className="text-sm text-gray-500 mt-2">Copy to your html in tag body</p>
+                <p className="text-sm text-gray-500 mt-2">Paste to your html in tag body</p>
                 <div className="space-y-4 w-full h-full border p-4 rounded-lg mt-6 flex items-center justify-center flex-col">
                     <h1 className="text-lg md:text-xl font-bold ">ChatBot</h1>
                     <div className="flex justify-center items-center w-full gap-8">
