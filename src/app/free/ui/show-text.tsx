@@ -13,7 +13,7 @@ export function ShowText() {
         >
           Gemini
         </LinkPreview>{" "}
-        and make a amazing something
+        we make a amazing something
       </p>
 
       <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl  text-left ">
