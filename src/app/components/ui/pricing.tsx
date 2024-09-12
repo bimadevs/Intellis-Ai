@@ -22,7 +22,7 @@ export default function Pricing() {
         <ul className="list-disc list-inside  mb-4">
           <li>10,000 Predictions / month</li>
           <li>1GB Storage</li>
-          <li>Costumise LLMs</li>
+          <li>Customize LLMs</li>
           <li>Database Backup</li>
           <li>1 Week Log Retention</li>
           <li>Custom Chatbot Branding</li>
