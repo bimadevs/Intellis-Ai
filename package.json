@@ -17,6 +17,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
     "@types/three": "^0.168.0",
+    "@vercel/speed-insights": "^1.0.12",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
     "framer-motion": "^11.5.4",
