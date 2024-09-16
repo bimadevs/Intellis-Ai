@@ -24,19 +24,11 @@ export default function Feature() {
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
     },
-    // {
-    //   title: "Watch our AI on YouTube",
-    //   description:
-    //     "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
-    //   skeleton: <SkeletonThree />,
-    //   className:
-    //     "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
-    // },
     {
       title: "Deploy in seconds",
       description:
         "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
-      skeleton: <SkeletonFour />,
+      skeleton: <SkeletonThree />,
       className: "col-span-1 lg:col-span-6 border-b lg:border-none",
     },
   ];
@@ -126,36 +118,12 @@ export const SkeletonOne = () => {
   );
 };
 
-export const SkeletonThree = () => {
-  return (
-    <Link
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
-      target="__blank"
-      className="relative flex gap-10  h-full group/image"
-    >
-      <div className="w-full  mx-auto bg-transparent dark:bg-transparent group h-full">
-        <div className="flex flex-1 w-full h-full flex-col space-y-2  relative">
-          {/* TODO */}
-          <IconBrandYoutubeFilled className="h-20 w-20 absolute z-10 inset-0 text-red-500 m-auto " />
-          <Image
-            src="https://assets.aceternity.com/fireship.jpg"
-            alt="header"
-            width={800}
-            height={800}
-            className="h-full w-full aspect-square object-cover object-center rounded-sm blur-none group-hover/image:blur-md transition-all duration-200"
-          />
-        </div>
-      </div>
-    </Link>
-  );
-};
+
 
 export const SkeletonTwo = () => {
   const images = [
-    "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1546484475-7f7bd55792da?q=80&w=2581&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   ];
 
@@ -225,9 +193,9 @@ export const SkeletonTwo = () => {
   );
 };
 
-export const SkeletonFour = () => {
+export const SkeletonThree = () => {
   return (
-    <div className="h-60 md:h-60  flex flex-col items-center relative bg-transparent dark:bg-transparent mt-10">
+    <div className="h-60  flex flex-col items-center relative bg-transparent dark:bg-transparent mt-10">
       <Globe className="absolute -right-10 md:-right-10 -bottom-80 md:-bottom-72" />
     </div>
   );
@@ -256,7 +224,7 @@ export const Globe = ({ className }: { className?: string }) => {
       glowColor: [1, 1, 1],
       markers: [
         // longitude latitude
-        { location: [37.7595, -122.4367], size: 0.03 },
+        { location: [-6.200000,  106.816666], size: 0.05 },
         { location: [40.7128, -74.006], size: 0.1 },
       ],
       onRender: (state) => {

@@ -20,7 +20,7 @@ export default function ShowAi() {
                     height={500}               
                    />
                     <script async id="vectorshift-chat-widget" src="https://app.vectorshift.ai/chatWidget.js"
-                        chatbot-id="66dee915292e6e0ef6a2b07b" chatbot-height="600px" chatbot-width="400px"></script>
+                        chatbot-id="66dee915292e6e0ef6a2b07b" chatbot-height="400px" chatbot-width="200px"></script>
                 </div>
                 <div
                     className="border p-8 rounded-2xl shadow-lg hover:shadow-white hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-2">
