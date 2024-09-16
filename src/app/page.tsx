@@ -7,6 +7,7 @@ import Pricing from "./components/ui/pricing";
 import { Contact } from "./components/ui/contact";
 import { AboutCard } from "./components/ui/about-card";
 import ShowAi from "./components/ui/show-ai";
+import Testimonial from "./components/ui/testimonial";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutCard />
       <Feature />
       <ShowAi />
+      <Testimonial />
       <Pricing />
       <Contact />
     </div>
