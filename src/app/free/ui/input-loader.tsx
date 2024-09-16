@@ -47,35 +47,25 @@ export function InputLoader() {
                     <h1 className="text-lg md:text-xl font-bold ">ChatBot</h1>
                     <div className="flex justify-center items-center w-full gap-8">
                         <button
-                            onClick={() => handleButtonClick('<iframe src="https://shorturl.at/l9yQM" width="500px" height="600px" style="border: none; position: fixed; bottom: 0; right: 0; margin: 10px;" allow="clipboard-read; clipboard-write"/>')}
-                            className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                            style={{
-                                boxShadow: "0px -1px 0px 0px #ffffff40 inset, 0px 1px 0px 0px #ffffff40 inset",
-                            }}
-                        >
-                            Full view
-                        </button>
-
-                        <button
                             onClick={() => handleButtonClick('<script async id="vectorshift-chat-widget" src="https://shorturl.at/4KIRR" chatbot-id="66dee915292e6e0ef6a2b07b" chatbot-height="600px" chatbot-width="400px" ></script>')}
                             className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                             style={{
                                 boxShadow: "0px -1px 0px 0px #ffffff40 inset, 0px 1px 0px 0px #ffffff40 inset",
                             }}
                         >
-                            Pop Up
+                            Copy Code
                         </button>
                     </div>
                     <h1 className="text-lg md:text-xl font-bold ">Image generator</h1>
                     <div className="flex justify-center items-center w-full gap-8">
                         <button
-                            onClick={() => handleButtonClick('<iframe src="https://shorturl.at/wfAez" width="1000px" height="900px" allow="clipboard-read; clipboard-write microphone"/>')}
+                            onClick={() => handleButtonClick('<iframe src="https://shorturl.at/TrwCk" width="1000px" height="900px" allow="clipboard-read; clipboard-write microphone"></iframe>')}
                             className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                             style={{
                                 boxShadow: "0px -1px 0px 0px #ffffff40 inset, 0px 1px 0px 0px #ffffff40 inset",
                             }}
                         >
-                            Full view
+                           Copy Code
                         </button>
                     </div>
 

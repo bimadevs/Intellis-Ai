@@ -28,7 +28,7 @@ export function ShowText() {
         </LinkPreview>{" "}
         and we make{" "}
         <LinkPreview
-          url="https://app.vectorshift.ai/forms/deployed/66d6fa869d99492d174837eb"
+          url="https://app.vectorshift.ai/forms/deployed/66e6edbf43db1e2bd970943e"
           imageSrc="https://ucarecdn.com/4d3ad90a-7583-4b1f-8b71-d37806cba824/intellisimage.webp"
           isStatic
           className="font-bold"
