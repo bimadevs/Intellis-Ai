@@ -32,21 +32,15 @@ function NavbarMenu({ className }: { className?: string }) {
           <div className="  text-sm grid  lg:grid-cols-2 gap-4 md:gap-10 p-2 md:p-4 ">
             <ProductItem
               title="ChatBot"
-              href="/#Products"
+              href="/#ShowAi"
               src="https://ucarecdn.com/5a14e39a-1c0d-4b8e-a7ce-44590e903112/ano.webp"
               description="An Ai Chatbot for get information"
             />
             <ProductItem
               title="Generate Image"
-              href="/#Products"
+              href="/#ShowAi"
               src="https://ucarecdn.com/4d3ad90a-7583-4b1f-8b71-d37806cba824/intellisimage.webp"
               description="Generate Image"
-            />
-            <ProductItem
-              title="Search Engine"
-              href="/#Products"
-              src="https://ucarecdn.com/94067630-7896-445a-bfca-1bb710a29585/comingsoon.svg"
-              description="Coming Soon, we will add more features"
             />
             
           </div>
