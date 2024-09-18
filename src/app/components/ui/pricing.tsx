@@ -2,7 +2,7 @@ import { CardSpotlight } from "../acertenity/card-spotlight";
 
 export default function Pricing() {
   return (
-    <div id="Pricing" className="mt-8 flex justify-center items-center gap-4 flex-wrap">
+    <div id="Pricing" className="mt-8 flex justify-center items-center gap-4 flex-wrap text-white">
       <a href="/free">
         <CardSpotlight className="h-96 w-96">
           <h3 className="text-2xl font-semibold mb-2">Try It For Free</h3>
