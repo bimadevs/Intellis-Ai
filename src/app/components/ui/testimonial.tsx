@@ -18,13 +18,13 @@ export default function Testimonial() {
                             className="w-12 h-12 rounded-full mr-4"
                             />
                             <div>
-                                <h4 className="font-semibold">Clara Norti</h4>
+                                <h4 className="font-semibold text-white">Clara Nortis</h4>
                                 <p className="text-sm text-gray-400">CEO, TechCorp</p>
                             </div>
                         </div>
-                        <p className="text-gray-300">"The AI chatbot has significantly improved our customer service
-                            efficiency. We've seen a 30% reduction in response times and increased customer
-                            satisfaction."</p>
+                        <p className="text-gray-300">&quot;The AI chatbot has significantly improved our customer service
+                            efficiency. We&apos;ve seen a 30% reduction in response times and increased customer
+                            satisfaction.&quot;</p>
                     </div>
                     <div className="border p-6 rounded-lg shadow-md">
                         <div className="flex items-center mb-4">
@@ -35,13 +35,13 @@ export default function Testimonial() {
                             alt="Testimonial 2"
                             className="w-12 h-12 rounded-full mr-4"
                             />                            <div>
-                                <h4 className="font-semibold">Jane Smith</h4>
+                                <h4 className="font-semibold text-white">Jane Smith</h4>
                                 <p className="text-sm text-gray-400">CTO, InnovateCo</p>
                             </div>
                         </div>
-                        <p className="text-gray-300">"Implementing this AI chatbot was a game-changer for our support team.
+                        <p className="text-gray-300">&quot;Implementing this AI chatbot was a game-changer for our support team.
                             It handles routine queries effortlessly, allowing our staff to focus on more complex
-                            issues."</p>
+                            issues.&quot;</p>
                     </div>
                     <div className="border p-6 rounded-lg shadow-md">
                         <div className="flex items-center mb-4">
@@ -52,12 +52,12 @@ export default function Testimonial() {
                             alt="Testimonial 3"
                             className="w-12 h-12 rounded-full mr-4"
                             />                            <div>
-                                <h4 className="font-semibold">Mike Johnson</h4>
+                                <h4 className="font-semibold text-white">Mike Johnson</h4>
                                 <p className="text-sm text-gray-400">Support Manager, RetailGiant</p>
                             </div>
                         </div>
-                        <p className="text-gray-300">"Our customers love the instant responses they get from the chatbot.
-                            It's available 24/7, which has greatly improved our customer satisfaction scores."</p>
+                        <p className="text-gray-300">&quot;Our customers love the instant responses they get from the chatbot.
+                            It&apos;s available 24/7, which has greatly improved our customer satisfaction scores.&quot;</p>
                     </div>
                 </div>
             </div>
