@@ -3,7 +3,7 @@ import { TextHoverEffect } from "../acertenity/text-hover-effect";
 
 export default function Footer() {
   return (
-    <footer className="p-8  bg-gray-600">
+    <footer className="p-8 text-gray-300  bg-gray-600">
       <div className="container mx-auto flex flex-col md:flex-row justify-between">
         <div className="mb-6 md:mb-0">
           <h2 className="text-2xl font-bold "><a href="#">Intellis AI</a></h2>
