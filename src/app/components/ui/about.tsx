@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import { StickyScroll } from "../acertenity/sticky-scroll-reveal";
 import Image from "next/image";
+
+
 
 export default function About() {
   return (

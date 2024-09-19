@@ -18,6 +18,8 @@
     "@tsparticles/slim": "^3.5.0",
     "@types/three": "^0.168.0",
     "@vercel/speed-insights": "^1.0.12",
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
     "framer-motion": "^11.5.4",
@@ -29,6 +31,7 @@
     "three": "^0.168.0"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
