@@ -38,6 +38,11 @@ Interested in working with us? Want to know more about our projects? Feel free t
 - **Email**: [bimaj0206@gmail.com](mailto:bimaj0206@gmail.com)
 - **Website**: [https://intellis.bimadev.xyz](https://intellis.bimadev.xyz)
 
+## 👨🏻‍🤝‍👨🏻 Our Team
+ - **Bima Jovanta** - Team Leader and Frontend
+ - **Felisitas Alverina** - Research Company 
+ - **Susanti** - Desaigner
+
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
